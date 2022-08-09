@@ -10,7 +10,6 @@ class Producto {
     this.nombre = nombre;
     this.precio = precio;
   }
-  cambiarProducto() {}
   mostrarDatos() {
     document.write(`<ul>
     <li>Codigo: ${this.codigo}</li>
@@ -20,7 +19,7 @@ class Producto {
     </ul>`);
   }
 }
-let powered = new Producto(321654, "Powerade", "$205");
+let powered = new Producto(321654, "Powerade", "$240");
 let coca = new Producto(321854, "Coca-Cola 3L", "$320");
 let monster = new Producto(35876, "Monter 600ml", "$260");
 powered.mostrarDatos();
