@@ -54,13 +54,10 @@ if (anosDeNacimiento >= 1994 && anosDeNacimiento <= 2010) {
 } else if (anosDeNacimiento >= 1930 && anosDeNacimiento <= 1948) {
   document.write("Silent ageneration");
 }
-if(edades >= 18){
-    document.write("<br>Mayor de edad")
-}else{
-    document.write("<br>Menor de edad")
+if (edades >= 18) {
+  document.write("<br>Mayor de edad");
+} else {
+  document.write("<br>Menor de edad");
 }
 
-document.write('<br>DNI numero Generado:'+ Math.random()*10000000)
-
-
-
+document.write("<br>DNI numero Generado:" + parseInt(Math.random() * 10000000));
